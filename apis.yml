@@ -65,6 +65,8 @@ tags_raw:
 - SaaS
 apis: []
 common:
+- type: Plans
+  url: plans/scalera-plans-pricing.yml
 - type: DomainSecurity
   url: security/scalera-domain-security.yml
 - type: Website
