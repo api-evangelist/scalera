@@ -1,0 +1,43 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.scalera.ai/en/pricing
+sources:
+- https://www.scalera.ai/en/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: negotiated
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: false
+note: No numeric price is published on the pricing page; Tiered plans listed by tender volume and locations,
+  but no numeric prices shown; all CTAs are 'Book a demo'.
+plan_count: 5
+plans:
+- name: Silver
+  price_text: Book a demo
+  period: none
+  included_quota: 1 location supported; SCALERA Chatbot & Academy; up to 150 tenders per year
+- name: Gold
+  price_text: Book a demo
+  period: none
+  included_quota: 3 locations supported; 1 hour guided onboarding; up to 400 tenders per year
+- name: Platinum
+  price_text: Book a demo
+  period: none
+  included_quota: 5 locations supported; 2 hours guided onboarding; up to 800 tenders per year
+- name: Diamond
+  price_text: Book a demo
+  period: none
+  included_quota: 8 locations supported; 4 hours guided onboarding; Dedicated Customer Support; up to
+    1,500 tenders
+- name: Enterprise
+  price_text: Book a demo
+  period: none
+  included_quota: Unlimited locations; Dedicated Customer Support; SSO & integrations; Early access to
+    new features
